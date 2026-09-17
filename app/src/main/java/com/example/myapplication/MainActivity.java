@@ -1,16 +1,16 @@
 package com.example.myapplication;
-package
+jk
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-myapplication
+
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-myapplication
+
         BottomNavigationView nav = findViewById(R.id.bottom_nav);
         nav.setOnItemSelectedListener(item -> {
             Fragment f;
@@ -25,4 +25,3 @@ myapplication
         nav.setSelectedItemId(R.id.nav_home);
     }
 }
-Bundle
